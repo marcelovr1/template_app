@@ -3,6 +3,12 @@ TemplateApp::Application.routes.draw do
 
   get "static_pages/help"
 
+  get "static_pages/about"
+
+  get "static_pages/Marcelo"
+
+  get "static_pages/contact_us"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
