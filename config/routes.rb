@@ -1,14 +1,17 @@
 TemplateApp::Application.routes.draw do
+
   root to: 'static_pages#home'
 
   match '/help', to: 'static_pages#help'
 
   match '/about', to: 'static_pages#about'
 
-  match '/Marcelo', to: 'static_pages#Marcelo'
+  match '/marcelo', to: 'static_pages#marcelo'
 
   match '/contact_us', to: 'static_pages#contact_us'
 
+  match '/signup', to: 'users#new'
+  
   
 
   # The priority is based upon order of creation:

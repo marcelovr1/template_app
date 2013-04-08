@@ -23,13 +23,13 @@ describe "StaticPages" do
   end
   describe "Marcelo Page" do
   	it "should have the content 'Marcelo'" do
-  		visit Marcelo_path'
+  		visit marcelo_path
   		page.should have_content('Marcelo')
   	end
   end
   describe "contact_us Page" do
   	it "should have the content 'contact_us'" do
-  		visit contact_us path
+  		visit contact_us_path
   		page.should have_content('contact_us')
   	end
   end
